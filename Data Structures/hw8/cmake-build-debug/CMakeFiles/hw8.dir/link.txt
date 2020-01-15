@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/hw8.dir/main.cpp.o CMakeFiles/hw8.dir/Rope_provided.cpp.o CMakeFiles/hw8.dir/Rope_student.cpp.o  -o hw8.exe -Wl,--out-implib,libhw8.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

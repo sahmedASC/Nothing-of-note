@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw4/main.cpp
+iostream
+-
+cstdlib
+-
+cassert
+-
+vector
+-
+list
+-
+fstream
+-
+cstdio
+-
+cmath
+-
+algorithm
+-
+

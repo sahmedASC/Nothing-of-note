@@ -1,0 +1,3 @@
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab10_/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab10_/cmake-build-debug/CMakeFiles/lab10_.dir
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab10_/cmake-build-debug/CMakeFiles/edit_cache.dir

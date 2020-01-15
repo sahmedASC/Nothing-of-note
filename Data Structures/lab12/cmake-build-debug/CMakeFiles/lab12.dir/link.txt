@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/lab12.dir/main_smart_pointers.cpp.o  -o lab12.exe -Wl,--out-implib,liblab12.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

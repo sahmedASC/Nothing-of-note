@@ -1,0 +1,50 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab13/polygons.h
+iostream
+-
+cmath
+-
+cassert
+-
+vector
+-
+string
+-
+utilities.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab13/utilities.h
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab13/simple_main.cpp
+cassert
+-
+iostream
+-
+fstream
+-
+sstream
+-
+vector
+-
+cstdlib
+-
+algorithm
+-
+polygons.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab13/polygons.h
+utilities.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab13/utilities.h
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab13/utilities.h
+iostream
+-
+cmath
+-
+cassert
+-
+

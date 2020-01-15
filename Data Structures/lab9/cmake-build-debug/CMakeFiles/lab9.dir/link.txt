@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/lab9.dir/test_ds_set.cpp.o  -o lab9.exe -Wl,--out-implib,liblab9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

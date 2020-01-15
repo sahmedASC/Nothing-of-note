@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/hw7.dir/main.cpp.o  -o hw7.exe -Wl,--out-implib,libhw7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

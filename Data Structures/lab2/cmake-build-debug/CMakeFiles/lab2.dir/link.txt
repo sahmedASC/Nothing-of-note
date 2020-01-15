@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/lab2.dir/mainreal.cpp.o CMakeFiles/lab2.dir/Time.cpp.o  -o lab2.exe -Wl,--out-implib,liblab2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

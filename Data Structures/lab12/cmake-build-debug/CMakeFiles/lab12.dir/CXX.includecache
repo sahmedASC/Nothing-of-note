@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab12/main_stop_and_copy.cpp
+iostream
+-
+cassert
+-
+stop_and_copy.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab12/stop_and_copy.h
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab12/stop_and_copy.h
+iostream
+-
+

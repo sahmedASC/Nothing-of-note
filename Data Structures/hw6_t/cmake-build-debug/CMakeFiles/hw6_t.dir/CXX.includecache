@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw6_t/input.h
+string
+-
+vector
+-
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw6_t/main.cpp
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+algorithm
+-
+input.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw6_t/input.h
+

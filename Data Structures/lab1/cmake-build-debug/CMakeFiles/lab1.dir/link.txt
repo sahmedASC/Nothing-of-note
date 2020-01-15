@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/lab1.dir/check2.cpp.o  -o lab1.exe -Wl,--out-implib,liblab1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

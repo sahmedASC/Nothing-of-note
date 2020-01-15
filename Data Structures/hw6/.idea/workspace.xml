@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="hw6" targetName="hw6" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="00812094-9a8b-4f00-9419-a39da3617a48" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="70" />
+    <option name="width" value="940" />
+    <option name="height" value="1090" />
+  </component>
+  <component name="ProjectId" id="1OYSqYQWKjgvEXFG8VZasWUrXxK" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hw10" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="hw6" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="blackout1.txt blackout_dict1.txt all_solutions print_boards" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw6" TARGET_NAME="hw6" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hw6" RUN_TARGET_NAME="hw6">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="00812094-9a8b-4f00-9419-a39da3617a48" name="Default Changelist" comment="" />
+      <created>1551914442075</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551914442075</updated>
+      <workItem from="1551914443311" duration="803000" />
+      <workItem from="1552089262183" duration="7105000" />
+      <workItem from="1552419843360" duration="9633000" />
+      <workItem from="1552442728515" duration="3000" />
+      <workItem from="1552491414048" duration="29000" />
+      <workItem from="1552524917160" duration="2090000" />
+      <workItem from="1552529157995" duration="2619000" />
+      <workItem from="1552592998584" duration="17632000" />
+      <workItem from="1552665743648" duration="6224000" />
+      <workItem from="1552672954011" duration="25741000" />
+      <workItem from="1552750440269" duration="18865000" />
+      <workItem from="1552845459481" duration="22000" />
+      <workItem from="1553032865211" duration="325000" />
+      <workItem from="1553033204082" duration="7000" />
+      <workItem from="1553033252902" duration="9000" />
+      <workItem from="1561553846038" duration="174000" />
+      <workItem from="1561571324183" duration="318000" />
+      <workItem from="1561571661206" duration="598000" />
+      <workItem from="1561643786644" duration="35000" />
+      <workItem from="1561644229799" duration="49000" />
+      <workItem from="1562775416112" duration="524000" />
+      <workItem from="1564152958574" duration="66000" />
+      <workItem from="1564153236399" duration="22000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="found_words" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

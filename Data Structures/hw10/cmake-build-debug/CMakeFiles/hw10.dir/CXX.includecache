@@ -1,0 +1,76 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/Job.cpp
+Job.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/Job.h
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/Job.h
+string
+-
+ctime
+-
+iostream
+-
+vector
+-
+TimeQueue.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/TimeQueue.h
+UrgentQueue.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/UrgentQueue.h
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/TimeQueue.cpp
+TimeQueue.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/TimeQueue.h
+Job.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/Job.h
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/TimeQueue.h
+ctime
+-
+vector
+-
+iostream
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/iostream
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/UrgentQueue.cpp
+UrgentQueue.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/UrgentQueue.h
+Job.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/Job.h
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/UrgentQueue.h
+ctime
+-
+iostream
+-
+fstream
+-
+vector
+-
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/main.cpp
+cassert
+-
+fstream
+-
+iostream
+-
+string
+-
+ctime
+-
+list
+-
+UrgentQueue.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/UrgentQueue.h
+TimeQueue.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/TimeQueue.h
+Job.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw10/Job.h
+

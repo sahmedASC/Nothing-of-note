@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw8/Rope.h
+string
+-
+vector
+-
+iostream
+-
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw8/main.cpp
+cassert
+-
+string
+-
+Rope.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw8/Rope.h
+

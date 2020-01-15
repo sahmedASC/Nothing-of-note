@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/lab10_.dir/test_ds_hashset.cpp.o  -o lab10_.exe -Wl,--out-implib,liblab10_.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

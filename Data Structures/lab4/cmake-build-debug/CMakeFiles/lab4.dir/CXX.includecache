@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab4/test_vec.cpp
+iostream
+-
+cmath
+-
+vec.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab4/vec.h
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab4/vec.h
+

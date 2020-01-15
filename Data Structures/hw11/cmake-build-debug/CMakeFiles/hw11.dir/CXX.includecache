@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw11/performance_bst.cpp
+ctime
+-
+cassert
+-
+cstdlib
+-
+algorithm
+-
+iostream
+-
+fstream
+-
+string
+-
+set
+-
+map
+-
+

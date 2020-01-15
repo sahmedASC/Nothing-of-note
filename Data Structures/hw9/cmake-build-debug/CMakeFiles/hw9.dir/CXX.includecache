@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw9/main.cpp
+iostream
+-
+map
+-
+string
+-
+fstream
+-
+vector
+-
+algorithm
+-
+movie.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw9/movie.h
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw9/movie.cpp
+movie.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw9/movie.h
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw9/movie.h
+string
+-
+vector
+-
+iostream
+-
+

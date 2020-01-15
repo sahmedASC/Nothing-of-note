@@ -1,0 +1,21 @@
+Freshman are going to be found in these rooms. Be prepared:
+Room LOW_4034
+Dept  Coursenum  Class Title                     Day        Start Time  End Time
+----  ---------  ------------------------------  ---------  ----------  --------
+ECSE  1090-01    MECHATRONICS-HARDWARE/SOFTWARE  Wednesday  12:00PM     12:50PM 
+1 entries
+
+Room SAGE_4101
+Dept  Coursenum  Class Title           Day       Start Time  End Time
+----  ---------  --------------------  --------  ----------  --------
+ECSE  1010-01    INTRODUCTION_TO_ECSE  Monday    12:00PM     01:50PM 
+ECSE  1010-01    INTRODUCTION_TO_ECSE  Thursday  12:00PM     01:50PM 
+2 entries
+
+Room TROY_2018
+Dept  Coursenum  Class Title           Day       Start Time  End Time
+----  ---------  --------------------  --------  ----------  --------
+ECSE  1010-02    INTRODUCTION_TO_ECSE  Monday    04:00PM     05:50PM 
+ECSE  1010-02    INTRODUCTION_TO_ECSE  Thursday  04:00PM     05:50PM 
+2 entries
+

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab2/Time.cpp
+iostream
+-
+string
+-
+Time.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab2/Time.h
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab2/Time.h
+iostream
+-
+

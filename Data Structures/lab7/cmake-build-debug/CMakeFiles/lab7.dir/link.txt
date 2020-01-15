@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/lab7.dir/check3.cpp.o  -o lab7.exe -Wl,--out-implib,liblab7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/hw6_t.dir/main.cpp.o  -o hw6_t.exe -Wl,--out-implib,libhw6_t.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

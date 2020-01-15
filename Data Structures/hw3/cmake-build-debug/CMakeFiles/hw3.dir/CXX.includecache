@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw3/meme.cpp
+iostream
+-
+fstream
+-
+string
+-
+cstdlib
+-
+cassert
+-
+vector
+-
+table.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw3/table.h
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw3/table.h
+iostream
+-
+vector
+-
+

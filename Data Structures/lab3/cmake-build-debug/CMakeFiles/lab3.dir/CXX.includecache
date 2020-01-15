@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab3/Point2D.h
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab3/Rectangle.h
+vector
+-
+Point2D.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab3/Point2D.h
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab3/main.cpp
+iostream
+-
+Point2D.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab3/Point2D.h
+Rectangle.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab3/Rectangle.h
+

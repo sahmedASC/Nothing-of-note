@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab6/dslist.h
+cassert
+-
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab6/lab6_checkpoint2.cpp
+iostream
+-
+cmath
+-
+list
+-
+dslist.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab6/dslist.h
+

@@ -1,0 +1,1 @@
+C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/hw10.dir/main.cpp.o CMakeFiles/hw10.dir/Job.cpp.o CMakeFiles/hw10.dir/UrgentQueue.cpp.o CMakeFiles/hw10.dir/TimeQueue.cpp.o  -o hw10.exe -Wl,--out-implib,libhw10.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

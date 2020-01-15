@@ -1,0 +1,16 @@
+print("*"*10)
+print("** spam **")
+print("*"*10)
+print("")
+###########################
+x= input("enter a four letter word ")
+print("*"*10)
+print("**", x,"**")
+print("*"*10)
+print("")
+##############################
+x= input("enter a word ")
+lnx=len(x)
+print("*"*(lnx+6))
+print("**", x,"**")
+print("*"*(lnx+6))

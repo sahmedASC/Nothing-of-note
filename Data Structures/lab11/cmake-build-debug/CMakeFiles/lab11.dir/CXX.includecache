@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab11/priority_queue.h
+iostream
+-
+vector
+-
+cassert
+-
+
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab11/test_pq.cpp
+iostream
+-
+vector
+-
+priority_queue.h
+/cygdrive/c/Users/ahmeds7/Documents/Data Structures/lab11/priority_queue.h
+
