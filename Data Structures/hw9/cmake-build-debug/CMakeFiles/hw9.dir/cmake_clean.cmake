@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hw9.dir/main.cpp.o"
   "CMakeFiles/hw9.dir/movie.cpp.o"
-  "hw9.pdb"
   "hw9.exe"
+  "hw9.pdb"
   "libhw9.dll.a"
 )
 

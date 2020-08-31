@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw9/main.cpp" "/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw9/cmake-build-debug/CMakeFiles/hw9.dir/main.cpp.o"
-  "/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw9/movie.cpp" "/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw9/cmake-build-debug/CMakeFiles/hw9.dir/movie.cpp.o"
+  "/cygdrive/c/Users/ahmeds7/Documents/GitHub/Nothing-of-note/Data Structures/hw9/main.cpp" "/cygdrive/c/Users/ahmeds7/Documents/GitHub/Nothing-of-note/Data Structures/hw9/cmake-build-debug/CMakeFiles/hw9.dir/main.cpp.o"
+  "/cygdrive/c/Users/ahmeds7/Documents/GitHub/Nothing-of-note/Data Structures/hw9/movie.cpp" "/cygdrive/c/Users/ahmeds7/Documents/GitHub/Nothing-of-note/Data Structures/hw9/cmake-build-debug/CMakeFiles/hw9.dir/movie.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

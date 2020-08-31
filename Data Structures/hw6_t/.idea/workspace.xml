@@ -11,82 +11,250 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3d53af7-d1bb-4907-832b-11907d862e7b" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="d3d53af7-d1bb-4907-832b-11907d862e7b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../CS 1/Homework/hw5/.idea/hw5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hw9/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/3.14.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/performance.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/performance.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/performance_bst.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/performance_bst.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/performance_hash_table.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/performance_hash_table.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/performance_linked_list.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/performance_linked_list.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/performance_priority_queue.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/CMakeFiles/hw11.dir/performance_priority_queue.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/hw11.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/hw11.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/cmake-build-debug/hw11.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/cmake-build-debug/hw11.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw11/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw11/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/hw5.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/hw5.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/hw5.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/hw5.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/hw5.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/hw5.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/hw5.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/hw5.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/hw5.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/hw5.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/hw5.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/hw5.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/CMakeFiles/hw5.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw5/cmake-build-debug/hw5.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../hw5/cmake-build-debug/hw5.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.3/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.3/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.3/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.3/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.5/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/3.14.5/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/hw6.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/hw6.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/hw6.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/hw6.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/hw6.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/hw6.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/hw6.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/hw6.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/hw6.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/hw6.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/hw6.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/hw6.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/hw6.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/hw6.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/hw6.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/CMakeFiles/hw6.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/hw6.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/hw6.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw6/cmake-build-debug/hw6.exe" beforeDir="false" afterPath="$PROJECT_DIR$/../hw6/cmake-build-debug/hw6.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw6_t.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw6_t.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw6_t.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw6_t.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw6_t.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw6_t.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw6_t.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw6_t.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw6_t.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw6_t.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw6_t.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw6_t.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw6_t.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw6_t.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw6_t.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/hw6_t.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/hw6_t.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/hw6_t.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/hw6_t.exe" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/hw6_t.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.13.4/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.13.4/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.13.4/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.13.4/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.13.4/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.13.4/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.14.2/CMakeCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.14.2/CMakeCXXCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.14.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.14.2/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.14.2/CMakeSystem.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdC/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/3.14.2/CompilerIdCXX/a.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/hw9.dir/CXX.includecache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/hw9.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/hw9.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/hw9.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/hw9.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/hw9.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/hw9.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/hw9.dir/depend.internal" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/hw9.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/hw9.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/hw9.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/hw9.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/hw9.dir/main.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/CMakeFiles/hw9.dir/movie.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw9/cmake-build-debug/hw9.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../hw9/cmake-build-debug/hw9.cbp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding>
-                <element signature="e#146#155#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/main.txt" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/main.cpp" />
-      </list>
-    </option>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="70" />
     <option name="width" value="940" />
     <option name="height" value="1090" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="hw6_t" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw6_t" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1YcvXrJc8z4UVNn4nIRSYyFqSNu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab9" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="hw6_t" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="blackout_dict1.txt blackout1.txt all_solutions print_boards" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="hw6_t" TARGET_NAME="hw6_t" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="hw6_t" RUN_TARGET_NAME="hw6_t">
@@ -94,6 +262,18 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -110,98 +290,40 @@
       <workItem from="1553042190477" duration="95000" />
       <workItem from="1553096742760" duration="21000" />
       <workItem from="1553106982205" duration="61000" />
+      <workItem from="1583254746099" duration="68000" />
+      <workItem from="1583334803366" duration="9000" />
+      <workItem from="1584743811586" duration="60000" />
+      <workItem from="1584825770873" duration="6000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1863000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2570028" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1689008" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3297587" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.3297587" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2570028" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1152815" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3297587" />
-      <window_info anchor="bottom" id="CMake" order="12" weight="0.3297587" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="7132" lean-forward="true" selection-start-column="7132" selection-end-column="7132" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3335">
-          <caret line="305" column="70" selection-start-line="305" selection-start-column="70" selection-end-line="305" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#146#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="192" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584743846049">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="192" y="87" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1474.864@0.0.1474.864" timestamp="1584743846049" />
+    <state width="1431" height="326" key="GridCell.Tab.0.bottom" timestamp="1584743870492">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="326" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1584743870492" />
+    <state width="1431" height="326" key="GridCell.Tab.0.center" timestamp="1584743870492">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="326" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1584743870492" />
+    <state width="1431" height="326" key="GridCell.Tab.0.left" timestamp="1584743870492">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="326" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1584743870492" />
+    <state width="1431" height="326" key="GridCell.Tab.0.right" timestamp="1584743870492">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state width="1431" height="326" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1584743870492" />
+    <state x="434" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1584825770907">
+      <screen x="0" y="0" width="1474" height="864" />
+    </state>
+    <state x="434" y="257" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1584825770907" />
   </component>
 </project>

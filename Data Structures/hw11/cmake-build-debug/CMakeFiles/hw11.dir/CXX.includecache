@@ -6,7 +6,37 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw11/performance_bst.cpp
+/cygdrive/c/Users/ahmeds7/Documents/GitHub/Nothing-of-note/Data Structures/hw11/performance.cpp
+ctime
+-
+cassert
+-
+cstdlib
+-
+algorithm
+-
+iostream
+-
+fstream
+-
+string
+-
+vector
+-
+list
+-
+set
+-
+map
+-
+queue
+-
+unordered_set
+-
+unordered_map
+-
+
+/cygdrive/c/Users/ahmeds7/Documents/GitHub/Nothing-of-note/Data Structures/hw11/performance_bst.cpp
 ctime
 -
 cassert
@@ -24,5 +54,61 @@ string
 set
 -
 map
+-
+
+/cygdrive/c/Users/ahmeds7/Documents/GitHub/Nothing-of-note/Data Structures/hw11/performance_hash_table.cpp
+ctime
+-
+cassert
+-
+cstdlib
+-
+algorithm
+-
+iostream
+-
+fstream
+-
+string
+-
+unordered_set
+-
+unordered_map
+-
+
+/cygdrive/c/Users/ahmeds7/Documents/GitHub/Nothing-of-note/Data Structures/hw11/performance_linked_list.cpp
+ctime
+-
+cassert
+-
+cstdlib
+-
+algorithm
+-
+iostream
+-
+fstream
+-
+string
+-
+list
+-
+
+/cygdrive/c/Users/ahmeds7/Documents/GitHub/Nothing-of-note/Data Structures/hw11/performance_priority_queue.cpp
+ctime
+-
+cassert
+-
+cstdlib
+-
+algorithm
+-
+iostream
+-
+fstream
+-
+string
+-
+queue
 -
 

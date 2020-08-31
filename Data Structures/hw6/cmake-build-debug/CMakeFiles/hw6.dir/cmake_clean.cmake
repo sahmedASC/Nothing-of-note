@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hw6.dir/main.cpp.o"
-  "hw6.pdb"
   "hw6.exe"
+  "hw6.pdb"
   "libhw6.dll.a"
 )
 

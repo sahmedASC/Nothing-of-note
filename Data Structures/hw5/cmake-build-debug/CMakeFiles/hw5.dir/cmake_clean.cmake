@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hw5.dir/main.cpp.o"
-  "hw5.pdb"
   "hw5.exe"
+  "hw5.pdb"
   "libhw5.dll.a"
 )
 

@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw6_t/input.h
+/cygdrive/c/Users/ahmeds7/Documents/GitHub/Nothing-of-note/Data Structures/hw6_t/input.h
 string
 -
 vector
 -
 
-/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw6_t/main.cpp
+/cygdrive/c/Users/ahmeds7/Documents/GitHub/Nothing-of-note/Data Structures/hw6_t/main.cpp
 iostream
 -
 fstream
@@ -24,5 +24,5 @@ vector
 algorithm
 -
 input.h
-/cygdrive/c/Users/ahmeds7/Documents/Data Structures/hw6_t/input.h
+/cygdrive/c/Users/ahmeds7/Documents/GitHub/Nothing-of-note/Data Structures/hw6_t/input.h
 
