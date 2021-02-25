@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project
+  name="BT-Sim"
+  basedir="."
+  default="run"
+>
+
+<description>
+  BT-Sim is a BlueTooth simulator on a HCI level. The project alows to develop
+  and test BT applications without using real BT hardware. It works in
+  particular with PalmSource's Palm OS Simulator.
+  
+  For more details see: http://btsim.sf.net
+</description>
+
+<property name="title" value="BT-Sim"/>
+<property name="author" value="Urs Hunkeler"/>
+<property name="project.name" value="btsim"/>
+<property name="project.version" value="0.3"/>
+<property name="src.dir" value="${basedir}/src"/>
+
+<property name="build.dir" value="${basedir}/build"/>
+<property name="dest.dir" value="${build.dir}/classes"/>
+<property name="lib.dir" value="${build.dir}/lib"/>
+<property name="doc.dir" value="${build.dir}/doc"/>
+
+<target
+  name="-info"
+  description="Displays useful information"
+>
+  <available
+    file="${src.dir}"
+    type="dir"
+    property="src.dir.present"
+  />
+  <fail
+    message="Can't find the source code directory: ${src.dir}"
+    unless="src.dir.present"
+  />
+
+  <echo message="-----------------"/>
+  <echo message="${title}"/>
+  <echo message="${author}"/>
+  <echo message=""/>
+  <echo message=""/>
+  <echo message="Source code directory: ${src.dir}"/>
+  <echo message="Build directory: ${build.dir}"/>
+  <echo message="Java class files directory: ${dest.dir}"/>
+  <echo message="JavaDoc directory: ${doc.dir}"/>
+  <echo message="-----------------"/>
+</target>
+
+
+<target
+  name="prepare"
+  description="Makes build directories if necessary"
+>
+  <mkdir dir="${build.dir}"/>
+  <mkdir dir="${dest.dir}"/>
+  <mkdir dir="${lib.dir}"/>
+  <mkdir dir="${doc.dir}"/>
+</target>
+
+<target
+  name="init"
+  description="Sets up stuff"
+  depends="-info, prepare"
+>
+  <tstamp/>
+
+  <path id="classpath">
+    <pathelement location="${dest.dir}"/>
+  </path>
+
+  <condition property="executable.class" value="${main}">
+    <isset property="main"/>
+  </condition>
+  <property
+    name="executable.class"
+    value="net.sf.btsim.BTSim"
+  />
+</target>
+
+<target
+  name="compile"
+  description="Compiles Java source code"
+  depends="init"
+>
+  <javac destdir="${dest.dir}" debug="on" debuglevel="lines,vars,source" deprecation="on">
+    <src path="${src.dir}"/>
+    <classpath refid="classpath"/>
+  </javac>
+</target>
+
+<target
+  name="run"
+  description="Runs the program"
+  depends="compile"
+>
+  <available
+    classname="${executable.class}"
+    classpathref="classpath"
+    property="executable.class.present"
+  />
+  <fail
+    message="Can't find executable Java class: ${executable.class}"
+    unless="executable.class.present"
+  />
+  <java classname="${executable.class}" fork="true" dir="${basedir}">
+    <classpath refid="classpath"/>
+  </java>
+</target>
+
+<target
+  name="jar"
+  description="Creates a jar-archive (for distribution)"
+  depends="compile"
+>
+  <property name="jar.name" value="${project.name}-${project.version}.jar"/>
+  <jar
+    jarfile="${lib.dir}/${jar.name}"
+    basedir="${dest.dir}"
+  >
+    <manifest>
+      <attribute name="Main-Class" value="${executable.class}"/>
+    </manifest>
+  </jar>
+</target>
+
+<target 
+  name="clean"
+  description="Cleans up after itself (removes all built files and test logs)"
+  depends="-info"
+>
+  <delete dir="${build.dir}"/>
+  <delete dir="${lib.dir}"/>
+  <delete>
+    <fileset dir="${basedir}" defaultexcludes="no">
+      <include name="**/TEST-*"/>
+      <include name="**/*.chk"/>
+      <include name="**/*~"/>
+    </fileset>
+  </delete>
+</target>
+
+<target
+      name="javadoc"
+      description="Creates the javadoc documentation"
+      depends="init">
+  <path id="javadoc.path">
+    <pathelement path="${src.dir}"/>
+  </path>
+  <javadoc sourcepathref="javadoc.path" destdir="${doc.dir}" packagenames="*" access="private">
+  </javadoc>
+</target>
+
+</project>

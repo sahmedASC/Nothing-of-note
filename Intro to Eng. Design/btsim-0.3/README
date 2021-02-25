@@ -1,0 +1,61 @@
+BT-Sim
+===================
+Urs Hunkeler <urs.hunkeler@gmail.com> - current maintainer
+
+BT-Sim is a  BlueTooth simulator on a HCI level. The project alows to develop
+and test BT applications without using real BT hardware. It works in particular
+with PalmSource's Palm OS Simulator.
+
+More information is available at the project web site:
+http://btsim.sourceforge.net/
+
+Compile
+=======
+I recommend ant (http://ant.apache.org) to compile this project:
+
+ant compile
+
+If you really want to compile the program without using ant, you can do so
+by using a command similar to:
+
+find src -name "*.java" -exec javac -deprecation -d build/classes {} \;
+
+Running
+=======
+
+You can start the program either using ant:
+
+ant run
+
+or using the command-line (for instance to pass arguments):
+
+java -cp build/classes net.sf.btsim.BTSim
+
+The program will (by default) listen on port 7007. So make sure that whatever
+program you want to use with this BlueTooth simulator it will try to
+connect to this port. With PalmSource's Palm OS Simulator, you need
+to specify something like 'localhost:7007' as the craddle's port.
+
+Creating a JAR file
+===================
+If you're using ant, creating a JAR file is easy:
+
+ant jar
+
+The file will be placed in the build/lib directory. This is an executable
+jar file. This means that it knows about the project's main class and
+can be executed with a command similar to this:
+
+java -jar btsim-0.3.jar
+
+On windows one might be able to start it by double-clicking on the icon.
+
+Creating the documentation
+==========================
+If you are using ant, you can generate the class documentation with this
+command:
+
+ant javadoc
+
+The documentation will be a series of HTML files in the usual javadoc format.
+You can find them in the build/doc directory.

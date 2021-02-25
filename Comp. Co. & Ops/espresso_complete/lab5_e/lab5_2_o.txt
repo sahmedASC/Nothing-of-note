@@ -1,0 +1,12 @@
+#lab 5 problem 5 output
+.i 3
+.o 2
+.p 4
+01- 10
+1-1 10
+11- 01
+0-1 01
+.e
+
+#resulting expression for D = A'B + AC
+#line above added for clarity

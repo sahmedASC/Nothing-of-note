@@ -1,0 +1,189 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>Espresso (ECSE 2610 Computer Components &amp; Operations Fall
+2002, RPI)</title>
+</head>
+<body>
+<h1 style="text-align: center;"> Introduction of Espresso</h1>
+<p><br>
+<b>Espresso</b> is a program from UC Berkeley that simplifies PLAs,
+that is, truth tables with multiple output variables. </p>
+<p>Espresso is especially good with don't cares. One example given
+has 128 input variables, 28 output variables, and 620 product terms,
+with lots of don't cares. Espresso simplfied it to 279 product terms
+in 0.4 secs on a 1600 MHz Pentium.</p>
+<p>Executables are available for linux (on a Pentium) and Windows.
+Here I give a simplified description; however the full documentation
+are source are available for people who wish.</p>
+<ul>
+  <li>
+    <p><a href="espresso.linux">Espresso executable for linux on a
+pentium</a></p>
+  </li>
+  <li>
+    <p><a href="espresso.exe">Espresso executable for Windows</a></p>
+  </li>
+  <li>
+    <p><a href="Extras/">Extra stuff, such as the full docs and source
+files. This material is not part of COCO.</a></p>
+  </li>
+  <li>
+    <p><a href="decoder.txt">decoder.txt</a>, 7-segment decoder example
+file.</p>
+  </li>
+  <li>
+    <p><a href="inc3.txt">inc3.txt</a>, increment 3-bit number example
+file.</p>
+  </li>
+  <li>
+    <p><a href="inc4.txt">inc4.txt</a>, increment 4-bit number example
+file.</p>
+  </li>
+</ul>
+<h2>Usage</h2>
+<p>The input file is 2 header lines, giving the number of input and
+output variables, plus a truth table.</p>
+<p>Example of a 7-segment decoder:</p>
+<pre># BCD to 7-segment decoder<br>.i 4<br>.o 7<br>0000 1111 110<br>0001 0110 000<br>0010 1101 101<br>0011 1111 001<br>0100 0110 011<br>0101 1011 011<br>0110 1011 111<br>0111 1110 000<br>1000 1111 111<br>1001 1111 011<br>1010 ---- ---<br>1011 ---- ---<br>1100 ---- ---<br>1101 ---- ---<br>1110 ---- ---<br>1111 ---- ---<br></pre>
+<ul>
+  <li>
+    <p><b>#</b> starts a comment.</p>
+  </li>
+  <li>
+    <p> <b> .i N</b> is a declaration of the number of input
+variables.</p>
+  </li>
+  <li>
+    <p><b>.o N</b> is a declaration of the number of output variables.</p>
+  </li>
+  <li>
+    <p>Each following line is 1 row of the truth table. Blanks are
+insignificant.</p>
+  </li>
+  <li>
+    <p>There are many other declarations that just complicate things,
+which I ignore here.</p>
+  </li>
+  <li>
+    <p><b>-</b> (dash) means don't care for either an input or output.</p>
+  </li>
+  <li>
+    <p>You don't have to give all lines of the truth table. If all
+the outputs are don't care, then that line may be omitted. The last 6
+lines above might have been omitted.</p>
+  </li>
+  <li>
+    <p>Run the program in command-line mode in either linux or
+windows.</p>
+  </li>
+  <li>
+    <p>Specify the input file on the command line.</p>
+  </li>
+  <li>
+    <p>Espresso writes the output to the screen.</p>
+  </li>
+  <li>
+    <p>For the decoder example, the output is this:</p>
+    <pre># BCD to 7-segment decoder<br>.i 4<br>.o 7<br>.p 9<br>-0-0 1001100<br>-0-1 0110000<br>--10 1001100<br>-01- 0101001<br>-1-0 0010011<br>--11 1110000<br>--00 0110010<br>-101 1011011<br>1--- 1001011<br>.e<br></pre>
+  </li>
+  <li>
+    <p>The output has 2 new declaration types.</p>
+  </li>
+  <li>
+    <p><b>.p N</b> is the number of rows of the truth table. (It is
+optional on input.)</p>
+  </li>
+  <li>
+    <p><b>.e</b> indicates the end. It is also optional.</p>
+  </li>
+  <li>
+    <p>To understand espresso's output, lets call the input variables:
+WXYZ in that order, and the output variables: ABCDEFG.</p>
+  </li>
+  <li>
+    <p>The first row, <b>-0-0 1001100</b>, means that if X=Z=0, then
+A=D=E=1 and B=C=G=G=0. We don't care about W and Y .</p>
+  </li>
+  <li>
+    <p>The last row, <b>1--- 1001011</b>, means that if W=1, then
+A=D=F=G=1, and B=C=E=0. </p>
+  </li>
+  <li>
+    <p>Here are some of the output boolean expressions:</p>
+    <pre>A = X'Z' + YZ' + YZ + XY'Z + X<br>G = X'Y + XZ' + XY'Z + X<br></pre>
+  </li>
+  <li>
+    <p>The espression for A could be simplified (how?). Espresso
+doesn't do this because it is minimizing the total number of terms
+(rows in the output), and creating a new term for Y won't let it get
+rid of YZ' or YZ, since they are both needed for other output
+variables.</p>
+  </li>
+  <li>
+    <p>Here's a second example, incrementing a 3-bit number.</p>
+  </li>
+  <pre># Increment a 3-bit number<br>.i 3<br>.o 3<br>000 001<br>001 010<br>010 011<br>011 100<br>100 101<br>101 110<br>110 111<br>111 000<br></pre>
+  <li>
+    <p>The output is this:</p>
+  </li>
+  <pre># Increment a 3-bit number<br>.i 3<br>.o 3<br>.p 6<br>011 100<br>-01 010<br>10- 100<br>-10 010<br>1-0 100<br>--0 001<br>.e<br></pre>
+  <li>
+    <p>This illustrates some other rule. If all the output variables
+are 0, then no output row is written. This is reasonable if you think
+how a PLA is designed.</p>
+  </li>
+  <li>
+    <p>Also, if more than one input row applies, then the outputs are
+OR'ed. Here, if the input is 010, then 2 rows match: <tt>-10 010</tt>
+and <tt>--0 001</tt>. So the output is 011. </p>
+  </li>
+  <li>
+    <p>Larger problems often get simplified more than smaller ones.
+Here's a 4-bit incrementer, with a 16-line truth table. </p>
+  </li>
+  <pre>.i 4<br>.o 4<br>0000 0001<br>0001 0010<br>0010 0011<br>0011 0100<br>0100 0101<br>0101 0110<br>0110 0111<br>0111 1000<br>1000 1001<br>1001 1010<br>1010 1011<br>1011 1100<br>1100 1101<br>1101 1110<br>1110 1111<br>1111 0000<br></pre>
+  <li>
+    <p>The output has only 10 lines, with many don't cares, which
+simplify the circuit.</p>
+  </li>
+  <pre>.i 4<br>.o 4<br>.p 10<br>0111 1000<br>-011 0100<br>1--0 1000<br>--01 0010<br>10-- 1000<br>-10- 0100<br>1-0- 1000<br>-1-0 0100<br>--10 0010<br>---0 0001<br>.e<br></pre>
+  <li>
+    <p>Suppose you just want the last bit of a 4-bit incrementer. The
+input is <a href="inc4-lastbit.txt">this</a>:</p>
+  </li>
+  <pre>.i 4<br>.o 1<br>0000 1<br>0001 0<br>0010 1<br>0011 0<br>0100 1<br>0101 0<br>0110 1<br>0111 0<br>1000 1<br>1001 0<br>1010 1<br>1011 0<br>1100 1<br>1101 0<br>1110 1<br>1111 0<br></pre>
+  <li>
+    <p>and the output is really simple:</p>
+  </li>
+  <pre>.i 4<br>.o 1<br>.p 1<br>---0 1<br>.e<br></pre>
+  <li>
+    <p>This says that the last bit of the output is 1 if the last bit
+of the input is 0. Duh.</p>
+  </li>
+  <li>
+    <p>If you want only the first bit of the 4-bit increment, then the
+input is <a href="inc4-firstbit.txt">this</a>:</p>
+  </li>
+  <pre># first bit of 4-bit increment<br>.i 4<br>.o 1<br>0000 0<br>0001 0<br>0010 0<br>0011 0<br>0100 0<br>0101 0<br>0110 0<br>0111 1<br>1000 1<br>1001 1<br>1010 1<br>1011 1<br>1100 1<br>1101 1<br>1110 1<br>1111 0<br></pre>
+  <li>
+    <p>and the output is this:</p>
+  </li>
+  <pre>.i 4<br>.o 1<br>.p 4<br>0111 1<br>1--0 1<br>1-0- 1<br>10-- 1<br>.e<br></pre>
+  <p>still a lot simpler than the input.</p>
+</ul>
+<h1>Windows Notes</h1>
+<ol>
+  <li>
+    <p>Start a command window, also called a dosprompt
+window.</p>
+  </li>
+  <li>
+    <p>Run espresso thus:</p>
+    <pre>espresso INPUTFILE.txt &gt; OUTPUTFILE.txt<br></pre>
+    <p>replacing INPUTFILE and OUTPUTFILE as desired.</p>
+  </li>
+</ol>
+<script src="../Lectures/foot.js"></script>
+</body>
+</html>

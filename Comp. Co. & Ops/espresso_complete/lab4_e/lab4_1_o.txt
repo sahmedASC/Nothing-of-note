@@ -1,0 +1,12 @@
+#Lab4 problem 1 part b output
+.i 4
+.o 1
+.p 4
+110- 1
+101- 1
+011- 1
+---0 1
+.e
+
+#resultant expression: F= Z'+ W'XY + WXY' + WX'Y
+#line above added for clarity

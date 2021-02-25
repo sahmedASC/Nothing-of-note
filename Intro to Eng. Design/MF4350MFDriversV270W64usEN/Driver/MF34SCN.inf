@@ -1,0 +1,316 @@
+;
+; MF34SCN.INF  -- Windows Setup File for the MF4320-4350 (Windows XP,Vista,Windows 7(64-bit))
+; Copyright CANON INC. 2009 All Rights Reserved
+;
+; InfID: {3C9D66A4-329C-4257-A9BF-C15E33794D55}
+;
+; Last Modified: 22-July-2009
+
+[Version]
+Signature="$Windows NT$"
+Class=Image
+ClassGUID={6bdd1fc6-810f-11d0-bec7-08002be2092f}
+
+;  The above GUID is the class GUID for all scanners and MUST NOT change
+Provider=%Msft%
+CatalogFile.NTamd64=MF34SCN.CAT
+DriverVer=11/05/2009, 11.3.0.0
+
+[DestinationDirs]
+DefaultDestDir=11
+CNCDsFiles=10,"twain_32\"%CNCRFN%
+CNCMediaFiles=10,media
+ColorFiles.NT=11,spool\drivers\Color
+
+[ControlFlags]
+;ExcludeFromSelect=*
+
+[Manufacturer]
+%Mfg%=Models,NTamd64.5.1,NTamd64.6.0
+
+
+[Models.NTamd64.5.1]
+%LPTENUM\CNC.DeviceDesc%=CNCInstall_XP,USB\VID_04A9&PID_26EE&MI_00
+
+[Models.NTamd64.6.0]
+%LPTENUM\CNC.DeviceDesc%=CNCInstall_VISTA,USB\VID_04A9&PID_26EE&MI_00
+
+
+;........................................ WinXP(64-bit) section
+[CNCInstall_XP.NTamd64]
+Include=sti.inf
+Needs=STI.USBSection
+SubClass=StillImage
+DeviceType=1
+DeviceSubType=0x1
+DeviceData=CNCDeviceData
+AddReg=CNCAddreg,CNCUSDAddreg_XP
+CopyFiles=WiaFiles,CNCDsFiles,ColorFiles.NT,MPScanLLD,CNCMediaFiles
+ICMProfiles="sRGB Color Space Profile.icm"
+; used for push button event
+Capabilities=0x11
+Events=PushButton.Events
+DriverVer=11/05/2009, 11.3.0.0
+FriendlyName=%CNC.FriendlyName%
+
+
+[CNCInstall_XP.NTamd64.Services]
+Include=sti.inf
+Needs=STI.USBSection.Services
+
+[CNCInstall_XP.NTamd64.CoInstallers]
+CopyFiles = ScanCoInstaller_CopyFiles_x64
+AddReg    = ScanCoInstaller_AddReg_x64
+
+[ScanCoInstaller_CopyFiles_x64]
+CNCLSO34b.dll
+
+[ScanCoInstaller_AddReg_x64]
+HKR,,CoInstallers32,0x00010000,"CNCLSO34b.dll,Coinstaller_EntryPoint"
+
+;........................................ WinVista(64-bit) section
+[CNCInstall_VISTA.NTamd64]
+Include=sti.inf
+Needs=STI.USBSection
+SubClass=StillImage
+DeviceType=1
+DeviceSubType=0x1
+DeviceData=CNCDeviceData_VISTA
+AddReg=CNCAddreg,CNCUSDAddreg_XP,CNCUSDAddreg_VISTA
+CopyFiles=Wia2Files,CNCDsFiles,ColorFiles.NT,MPScanLLD,CNCMediaFiles
+ICMProfiles="sRGB Color Space Profile.icm"
+; used for push button event
+Capabilities=0x11
+Events=PushButton.Events
+DriverVer=11/05/2009, 11.3.0.0
+FriendlyName=%CNC.FriendlyName%
+
+[CNCInstall_VISTA.NTamd64.Services]
+Include=sti.inf
+Needs=STI.USBSection.Services
+
+[CNCInstall_VISTA.NTamd64.CoInstallers]
+CopyFiles = ScanCoInstaller_CopyFiles_x64
+AddReg    = ScanCoInstaller_AddReg_x64
+
+[ScanCoInstaller_CopyFiles_x64]
+CNCLSO34b.dll
+
+[ScanCoInstaller_AddReg_x64]
+HKR,,CoInstallers32,0x00010000,"CNCLSO34b.dll,Coinstaller_EntryPoint"
+
+
+;.......................................... Common Section
+[PushButton.Events]
+PushButtonPushed1=%PushButtonPushed1%,{2BC72F52-CE02-42bc-A843-609A9FCEA15D},%ButtonApp%
+
+
+[ColorFiles.NT]
+CNZ005.ICC
+CNFR06.ICC
+
+[CNCDeviceData]
+TwainDS=%CNC.TwainDS%
+SpecialInfo=%CNC.SPInfo%
+DeviceKey=%CNCRFN%
+InstallDirectory="\TWAIN_32\%CNCRFN%\"
+
+[CNCDeviceData_VISTA]
+TwainDS=%CNC.TwainDS%
+SpecialInfo=%CNC.SPInfo%
+DeviceKey=%CNCRFN%
+InstallDirectory="\TWAIN_32\%CNCRFN%\"
+UI Class ID={FAE0CEF9-73EC-4fb1-BDC7-B12EBDC35159}
+;The above GUID reused from sample MUST change for each Model.
+
+[CNCAddreg]
+HKLM,"%SGDKEY%","DeviceName",,%CNC.MDL%
+HKLM,"%SGDKEY%","SeriesName",,%CNC.SRS%
+HKLM,"%SGDKEY%","Manufacturer",,"Canon Inc."
+HKLM,"%SGDKEY%","ProductFamily",,"TWAIN Scanners"
+HKLM,"%SGDKEY%","ProductName",,%CNC.MDL%
+HKLM,"%SGDKEY%","InstallDirectory",,"%10%\TWAIN_32\%CNCRFN%\"
+HKLM,"%SGDKEY%","DeviceDriver",,"SCANINTF.DLL"
+HKLM,"%SGDKEY%","ProductId",,"MF4320          "
+HKLM,"%SGDKEY%","DataSourcePath",,"%10%\TWAIN_32\%CNCRFN%\cisds.ds"
+HKLM,"%SGDKEY%","TextEnhance",0x00010001,0
+HKLM,"%SGDKEY%","AvailableDriver",0x00010001,1
+HKLM,"%SGDKEY%","HiDefinitionMode",0x00010001,0
+HKLM,"%SGDKEY%","AutoPreview",0x00010001,0
+HKLM,"%SGDKEY%","AutoClose",0x00010001,0
+HKLM,"%SGDKEY%","SavePreview",0x00010001,1
+HKLM,"%SGDKEY%","DriverDate",,"07 2009"
+HKLM,"%SGDKEY%","DriverVersion",,"11.3.0.0.mf07a"
+HKLM,"%SGDKEY%","ColorGear",,%CNC.ColorGear%
+HKLM,"%SGDKEY%","ColorMatch Platen",,"CNFR06.ICC"
+HKLM,"%SGDKEY%","SGIPPDEF",,"CNCFR06.DAT"
+HKLM,"%SGDKEY%","Descreen",0x00010001,0
+HKLM,"%SGDKEY%","Unsharp",0x00010001,3
+HKLM,"%SGDKEY%","MultiLimitThreshold",0x00010001,180
+HKLM,"%SGDKEY%","MultiJackUp",0x00010001,9
+HKLM,"%SGDKEY%","MultiTrimJackUp",0x00010001,20
+HKLM,"%SGDKEY%","CardPhotoDistThr",0x00010001,30
+HKLM,"%SGDKEY%","PhotoTrimThr",0x00010001,210
+HKLM,"%SGDKEY%","PhotoRThr",0x00010001,210
+HKLM,"%SGDKEY%","PhotoGThr",0x00010001,210
+HKLM,"%SGDKEY%","PhotoBThr",0x00010001,210
+HKLM,"%SGDKEY%","CardTrimThr",0x00010001,30
+HKLM,"%SGDKEY%","CardRThr",0x00010001,30
+HKLM,"%SGDKEY%","CardGThr",0x00010001,30
+HKLM,"%SGDKEY%","CardBThr",0x00010001,30
+HKLM,"%SGDKEY%","ParWhiteBlackEth",0x00010001,5
+HKLM,"%SGDKEY%","ParWhiteBlackEthDG",0x00010001,5
+HKLM,"%SGDKEY%","ParWhiteBlackSth",0x00010001,35
+HKLM,"%SGDKEY%","ParWhiteBlackVth",0x00010001,10
+HKLM,"%SGDKEY%","ParLabelingHth",0x00010001,30
+HKLM,"%SGDKEY%","ParLabelingLeft",0x00010001,1
+HKLM,"%SGDKEY%","ParLabelingTop",0x00010001,1
+HKLM,"%SGDKEY%","ParLabelingRight",0x00010001,1
+HKLM,"%SGDKEY%","ParLabelingBottom",0x00010001,1
+HKLM,"%SGDKEY%","DT_Left",,"10"
+HKLM,"%SGDKEY%","DT_Top",,"0"
+HKLM,"%SGDKEY%","DT_Width"	,,"1.5"
+HKLM,"%SGDKEY%","DT_Length",,"4.5"
+HKLM,"%SGDKEY%","DT_Border_1",,"2.5"
+HKLM,"%SGDKEY%","DT_Border_2",,"3.5"
+HKLM,"%SGDKEY%","DT_BkTh",,"18"
+HKLM,"%SGDKEY%","DT_MinWhThr",,"15"
+HKLM,"%SGDKEY%","DT_MaxWhThr",,"45"
+HKLM,"%SGDKEY%","ButtonNum",0x00010001,1
+HKLM,"%STIKEY%","MF4320",0x00010001,1
+
+[CNCUSDAddreg_XP]
+HKLM,"%WIASGDKEY%","ColorMatch",0x00010001,1
+HKLM,"%WIASGDKEY%","ColorGear",,"%CNC.ColorGear%"
+HKLM,"%WIASGDKEY%","TextEnhance",0x00010001,0
+HKLM,"%WIASGDKEY%","Descreen",0x00010001,0
+HKLM,"%WIASGDKEY%","UnsharpMask",0x00010001,0
+HKLM,"%WIASGDKEY%","HiDefinitionMode",0x00010001,0
+HKLM,"%WIASGDKEY%","ProductId",,"MF4320          "
+HKLM,"%WIASGDKEY%","ButtonNum",0x00010001,1
+HKLM,"%WIASGDKEY%","DspGamma",0x00010001,1
+HKLM,"%WIASTIKEY%","MF4320",0x00010001,1
+HKR,,USDClass,,"{BAEC92E5-534B-4a3c-868A-FB0FC4A9E8BE}"
+HKCR,CLSID\{BAEC92E5-534B-4a3c-868A-FB0FC4A9E8BE},,,"Canon USD"
+HKCR,CLSID\{BAEC92E5-534B-4a3c-868A-FB0FC4A9E8BE}\InProcServer32,,,%11%\CNCC4320.DLL
+HKCR,CLSID\{BAEC92E5-534B-4a3c-868A-FB0FC4A9E8BE}\InProcServer32,ThreadingModel,,"Both"
+;  The above GUID is specific to MF4320 and MUST change for a different model.
+
+[CNCUSDAddreg_VISTA]
+HKCR,CLSID\{FAE0CEF9-73EC-4fb1-BDC7-B12EBDC35159},,,"WIA Driver UI Extension"
+HKCR,CLSID\{FAE0CEF9-73EC-4fb1-BDC7-B12EBDC35159}\shellex\ImageProcessingFilter\{5CDDCD32-5E79-40d0-8E20-055CBE89DC53}
+;  The above GUID is specific to MF4320 and MUST change for a different model.
+
+HKCR,CLSID\{5CDDCD32-5E79-40d0-8E20-055CBE89DC53},,,"Canon Image Processing Filter"
+HKCR,CLSID\{5CDDCD32-5E79-40d0-8E20-055CBE89DC53}\InProcServer32,,,%11%\CNCE4320.dll
+HKCR,CLSID\{5CDDCD32-5E79-40d0-8E20-055CBE89DC53}\InProcServer32,ThreadingModel,,"Both"
+;  The above GUID is specific to MF4320 and MUST change for a different model.
+
+[WiaFiles]
+CNCC4320.DLL
+CNCI4320.DLL
+CNCL4320.DLL
+
+[Wia2Files]
+CNCC4320.DLL
+CNCI4320.DLL
+CNCL4320.DLL
+CNCE4320.DLL
+
+[CNCDsFiles]
+CISDS.DS
+SGUI.DLL
+SGUI_RES.DLL
+WIARES.DLL
+IOP.DLL
+ITLIB32.DLL
+SCANINTF.DLL
+TPM.DLL
+CNCFR06.DAT
+MC2.TXT
+JDA_CIMG.DLL
+NBS4MB.DLL
+NBSCOR4M.DLL
+RMSLANTC.DLL
+RSTCOL.DLL
+
+[MPScanLLD]
+CNCMFP34.INI,,,0x20
+CNCLSI34b.DLL,,,0x20
+CNCLSD34b.DLL,,,0x20
+CNCLSC34b.DLL,,,0x20
+CNCLST34b.DLL,,,0x20
+CNCLSU34b.DLL,,,0x20
+
+[CNCMediaFiles]
+CSSAMP1.MID
+
+;-------------------------------Source Index
+[SourceDisksFiles]
+CNZ005.ICC=1
+ITLIB32.DLL=1
+JDA_CIMG.DLL=1
+NBS4MB.DLL=1
+NBSCOR4M.DLL=1
+RMSLANTC.DLL=1
+RSTCOL.DLL=1
+
+CISDS.DS=1
+SGUI.DLL=1
+IOP.DLL=1
+SCANINTF.DLL=1
+TPM.DLL=1
+
+SGUI_RES.DLL=1
+WIARES.DLL=1
+
+CSSAMP1.MID=1
+
+CNCFR06.DAT=1
+CNFR06.ICC=1
+
+MC2.TXT=1
+
+CNCC4320.DLL=1
+CNCI4320.DLL=1
+CNCL4320.DLL=1
+CNCE4320.DLL=1
+
+CNCMFP34.INI=1
+CNCLSI34b.DLL=1
+CNCLSD34b.DLL=1
+CNCLSC34b.DLL=1
+CNCLST34b.DLL=1
+CNCLSU34b.DLL=1
+
+CNCLSO34b.DLL =1
+
+
+[SourceDisksNames]
+1=%D1%,scan.cab,
+
+;-------------------------------String Aliases
+[Strings]
+Msft="Canon"
+Mfg="Canon"
+SGDKEY="Software\Wow6432Node\Canon\SateraMFP1\ScanGear\11.3\Devices\MF4320"
+STIKEY="Software\Wow6432Node\Canon\SateraMFP1\ScanGear\STI"
+WIASGDKEY="Software\Canon\SateraMFP1\WIA\3.0\Devices\MF4320"
+WIASTIKEY="Software\Canon\SateraMFP1\WIA\STI"
+D1="Canon MF4320-4350 Setup Disk"
+LPTENUM\CNC.DeviceDesc="Canon MF4320-4350"
+ButtonApp        = "MF Toolbox Ver4.9"
+CNCRFN           = "MF4320"
+CNC.MDL          = "Canon MF4320"
+CNC.SRS          = "Canon MF4320-4350"
+CNC.DeviceDesc   = "Canon MF4320"
+CNC.SPInfo       = "Canon MF4320 Scanner"
+CNC.TwainDS      = "Canon MF4320-4350"
+CNC.ColorGear    = "FR06"
+PushButtonPushed1= "File"
+PushButtonPushed2= "PDF"
+PushButtonPushed3= "Email"
+PushButtonPushed4= "App."
+PushButtonPushed5= "Film Preview"
+CNC.FriendlyName     = "WIA Canon MF4320-4350"
+

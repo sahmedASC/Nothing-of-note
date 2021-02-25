@@ -1,0 +1,22 @@
+Circuit: * C:\Users\ahmeds7\Documents\Electric Circuits\Lab 2\Draft6.asc
+
+WARNING: Less than two connections to node NC_01.  This node is used by R3.
+Direct Newton iteration for .op point succeeded.
+
+Date: Sun May 31 14:04:19 2020
+Total elapsed time: 0.111 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6197
+traniter = 6186
+tranpoints = 1732
+accept = 1346
+rejected = 386
+matrix size = 16
+fillins = 0
+solver = Normal
+Matrix Compiler1: 466 bytes object code size  0.2/0.2/[0.1]
+Matrix Compiler2: 890 bytes object code size  0.1/0.2/[0.1]
+

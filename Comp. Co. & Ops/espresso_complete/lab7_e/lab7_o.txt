@@ -1,0 +1,10 @@
+#Lab7 Part A output
+.i 3
+.o 1
+.p 3
+11- 1
+1-1 1
+-11 1
+.e
+
+#Resultant Boolean Expression: F = XY + XZ + YZ

@@ -1,0 +1,12 @@
+#lab5 problem 1 output
+.i 3
+.o 3
+.p 4
+01- 100
+10- 100
+--1 001
+-0- 010
+.e
+
+#resulting expression for F = C
+#line above added for clarity
