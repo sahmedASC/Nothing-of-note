@@ -1,1 +1,1 @@
-C:/cygwin64/bin/g++.exe -g  -Wl,--enable-auto-import CMakeFiles/hw9.dir/main.cpp.o CMakeFiles/hw9.dir/movie.cpp.o  -o hw9.exe -Wl,--out-implib,libhw9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+/usr/bin/g++.exe -g -Wl,--enable-auto-import CMakeFiles/hw9.dir/main.cpp.o CMakeFiles/hw9.dir/movie.cpp.o -o hw9.exe -Wl,--out-implib,libhw9.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

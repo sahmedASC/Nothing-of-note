@@ -1,0 +1,83 @@
+Name: Saaif Ahmed
+RIN: 661925946
+
+(Part 1)
+1. Did you notice any change in the output?
+    -No significant changed was noticed. The voltage did not change much.
+2. Would this circuit be useful as an input to a system?
+    -It's difficult to say whether any configuration is not useful.
+    In a practical sense this circuit is not useful since the input does
+    not change a present state to the system. However this circuit may be useful
+    for a user to add artifical noise to their system for demonstration or testing purposes.
+
+(Part 2)
+1. Did you notice any change in the output?
+    -A change was noticed. The voltage went from roughly the supply level down to 0V.
+2. Would this circuit be useful as an input to a system?
+    -Yes this circuit would be very useful as an input to a system because
+    this voltage change can be used to disable chips in specfic instances and
+    overall add more control to a system by being a temporary OFF switch.
+Truth Table
+Pushbutton State | "Input Value"
+--------------------------------
+Pressed          | 0
+Released         | 1
+
+(Part 3)
+1. Did you notice any change in the output?
+    - A change was noticed. The voltage went from 0V to roughly the supply voltage.
+2.Would this circuit be useful as an input to a system?
+    -Yes this circuit would be very useful as an input to a system because
+    this voltage change can be used to start system by giving them power.
+    This would add control to the system by being a temporary ON switch.
+Truth Table
+Pushbutton State | "Input Value"
+--------------------------------
+Pressed          | 1
+Released         | 0
+
+(Part 4)
+1. You should have noticed that one of the circuits built in steps 2 and 3 produced an 
+inverted response to the pushbutton press. Why?
+    -This is due to the placement of the resistor. In step 2 the released push button made
+    the circuit open so the 5V had direct path to the input. However when it was pressed the input
+    Was connected across a wire which by definition has 0V across it ideally. The opposite is true
+    for step 3. This is because the push button connected the 5V to the resistor which then had 5V
+    across it and passed that to the input.
+
+(Part 5)
+   PB1   |    PB2   | SS1 | Input 1 | Input 2
+---------------------------------------------
+Released | Released | Off |    0    |    0    
+Pressed  | Released | Off |    0    |    0    
+Released | Pressed  | Off |    0    |    0    
+Pressed  | Pressed  | Off |    0    |    0    
+Released | Released | On  |    0    |    0   
+Pressed  | Released | On  |    1    |    0    
+Released | Pressed  | On  |    0    |    1    
+Pressed  | Pressed  | On  |    1    |    1    
+
+1. While this “complex” circuit above demonstrates the possibilities for building logic with switches
+(and in the same vein, transistors), the usefulness of such a structure is reduced when using a microcontroller. 
+Assuming you have three independent inputs within a program, PB1, PB2, and SS1, which are all independent of each other, 
+what is the effective binary (Boolean) logic commands that could be used to generate the equivalent value for 
+variable Input_2 in terms of AND (&), OR (|), and NOT (~) operations?
+    -Input 2 = PB2 & SS1
+
+(Part 6)
+   PB1   |    PB2   | SS1 | Input 1 | Input 2 | LED 1 | BiLED1 
+--------------------------------------------------------------
+Released | Released | Off |    0    |    0    |  OFF  |  OFF   
+Pressed  | Released | Off |    0    |    0    |  OFF  |  OFF   
+Released | Pressed  | Off |    0    |    0    |  OFF  |  OFF   
+Pressed  | Pressed  | Off |    0    |    0    |  OFF  |  OFF   
+Released | Released | On  |    0    |    0    |  OFF  |  OFF   
+Pressed  | Released | On  |    1    |    0    |  ON   |  GREEN 
+Released | Pressed  | On  |    0    |    1    |  ON   |  RED   
+Pressed  | Pressed  | On  |    1    |    1    |  ON   |  OFF   
+
+1. What the states of Input_1 and Input_2 that cause the BiLED1 to be off and why?
+    -The states that cause it to be off are when the both are released or when they both are
+    pressed. If they are both are released then there is no voltage or current flowing so it 
+    clearly does not turn on. But if both are on then there is no voltage across the component
+    so still no current flows.
