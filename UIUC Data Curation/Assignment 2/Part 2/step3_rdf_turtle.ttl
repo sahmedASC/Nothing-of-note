@@ -1,0 +1,36 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ma: <http://www.w3.org/ns/ma-ont#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix schema: <http://schema.org/> .
+@prefix ex: <http://example.com/> .
+
+<http://example.com/person/Noam> rdf:type foaf:Person ;
+	ex:name "Noam" ;
+	ex:likes <http://example.com/movie/sw> .
+
+<http://example.com/person/Grace> rdf:type foaf:Person ;
+	ex:name "Grace" ;
+	ex:likes <http://example.com/movie/sw> .
+
+<http://example.com/person/Larry> rdf:type foaf:Person ;
+	ex:name "Larry" ;
+	ex:likes <http://example.com/movie/fotr> .
+
+<http://example.com/person/Donald> rdf:type foaf:Person ;
+	ex:name "Donald" .
+
+<http://example.com/person/Sergey> rdf:type foaf:Person ;
+	ex:name "Sergey" .
+
+<http://example.com/movie/sw> rdf:type schema:Movie ;
+	schema:name "Star Wars" ;
+	ex:year "1977" .
+
+<http://example.com/movie/fotr> rdf:type schema:Movie ;
+	schema:name "The Fellowship of the Ring" ;
+	ex:year "2001" .
+
+<http://example.com/movie/wam> rdf:type schema:Movie ;
+	schema:name "We Are Marshall" ;
+	ex:year "2006" .
+

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+<xs:element name="consumerComplaints">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="complaint" maxOccurs="unbounded">
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="event" maxOccurs="unbounded" minOccurs="1">
+                            <xs:complexType>
+                                <xs:attribute name="date" type="xs:date" use="required"/>
+                                <xs:attribute name="type" type="xs:string" use="required"/>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="product" minOccurs="1" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="productType" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                                    <xs:element name="subproduct" type="xs:string" minOccurs="0"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="issue" minOccurs="1" maxOccurs="unbounded">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="issueType" type="xs:string"/>
+                                    <xs:element name="subissue" type="xs:string" minOccurs="0"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="consumerNarrative" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                        <xs:element name="company" minOccurs="1" maxOccurs="1">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="companyName" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                                    <xs:element name="companyState" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                                    <xs:element name="companyZip" type="xs:int" minOccurs="1" maxOccurs="1"/>
+                                </xs:sequence>
+                            </xs:complexType>
+                        </xs:element>
+                        <xs:element name="submitted" minOccurs="0" maxOccurs="1"/>
+                        <xs:element name="response" minOccurs="1" maxOccurs="1">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="publicResponse" type="xs:string" minOccurs="0" maxOccurs="1"/>
+                                    <xs:element name="responseType" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                                </xs:sequence>
+                                <xs:attribute name="consumerDisputed" use="required">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="Y"/>
+                                            <xs:enumeration value="N"/>     
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                                <xs:attribute name="timely" use="required">
+                                    <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                            <xs:enumeration value="yes"/>
+                                            <xs:enumeration value="no"/>
+                                        </xs:restriction>
+                                    </xs:simpleType>
+                                </xs:attribute>
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="id" type="xs:int" use="required"/>
+                    <xs:attribute name="submissionType" use="required">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="Referral"/>
+                                <xs:enumeration value="Web"/>     
+                                <xs:enumeration value="Phone"/> 
+                                <xs:enumeration value="InPerson"/>
+                                <xs:enumeration value="Mail"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:attribute>
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+</xs:schema>

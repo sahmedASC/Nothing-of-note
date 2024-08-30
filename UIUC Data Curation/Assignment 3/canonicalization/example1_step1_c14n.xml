@@ -1,0 +1,20 @@
+<catalog>
+    <book available="Y" id="alma99444534012205899">
+        <title>XML Schema Essentials</title>
+        <contributors>
+            <contributor role="creator">Wyke, R. Allen</contributor>
+            <contributor role="contributor">Watt, Andrew</contributor>  
+        </contributors>        
+        <description>Replacing DTDs (Document Type Definitions) as the way in which XML documents are described and validated, XML schemas are essential for ensuring the accuracy and security of information in B2B transactions and other XML applications.</description>
+        <identifier type="isbn">0471412597</identifier>       
+    </book>        
+    <book available="N" id="alma99954928441005899">
+        <title>Secure XML: the new syntax for signatures and encryption</title>
+        <contributors>
+            <contributor role="creator">Eastlake, Donald</contributor>
+            <contributor role="creator">Niles, Kitty</contributor>
+        </contributors>  
+        <description>Extensible Markup Language (XML) is the environment of choice for creating many of today's technologically sophisticated and security-sensitive Web applications. With Secure XML, developers now have the hands-on guide they need to combine a strong foundation in XML with proven, practical techniques for enabling the secure transmission of data across the Web. </description>
+        <identifier type="isbn">0201756056</identifier>       
+    </book>     
+</catalog>

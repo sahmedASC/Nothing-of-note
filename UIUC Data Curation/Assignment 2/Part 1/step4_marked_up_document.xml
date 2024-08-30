@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accountStatement xsi:noNamespaceSchemaLocation="step2_selected_document_xsd.xsd" currency="USD" language="EN" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<summaryHeader>
+		<accountSummary summary="Checking Summary" />
+		<accountTypeDesc accountType="College">
+			<desc>Chase College Checking</desc>
+		</accountTypeDesc>
+	</summaryHeader>
+	<balanceBreakdown>
+		<balanceBreakdownHeader>Amount</balanceBreakdownHeader>
+		<beginningBalance>Beginning Balance</beginningBalance>
+		<beginningBalanceAmount>5755.47</beginningBalanceAmount>
+		<deposits>Deposits and Additions</deposits>
+		<depositAmount>
+			<deposit>7227.52</deposit>
+		</depositAmount>
+		<physicalWithdrawals>Physical Withdrawals</physicalWithdrawals>
+		<physicalWithdrawalsAmount>
+			<withdrawal>0.00</withdrawal>
+		</physicalWithdrawalsAmount>
+		<electronicWithdrawals>Electronic Withdrawals</electronicWithdrawals>
+		<electronicWithdrawalsAmount>
+			<withdrawal>-3737.98</withdrawal>
+		</electronicWithdrawalsAmount>
+		<endingBalance>Ending Balance</endingBalance>
+		<endingBalanceAmount>9244.01</endingBalanceAmount>
+	</balanceBreakdown>
+	<noteToMember noteType="waiver">
+		<note>Your Chase College Checking Monthly Service Fee was waived because during the statement you had an electronic deposit made
+            into this account, such as a payment from payroll providers or government benefit providers, by using (i) the ACH network,
+            (ii) the Real Time Payment network, or (iii) third party services that facilitate payments to your debit card using the Visa
+            Mastercard network.
+        </note>
+	</noteToMember>
+	<transactions>
+		<headersList>
+			<tableHeader>Date</tableHeader>
+			<tableHeader>Description</tableHeader>
+			<tableHeader>Amount</tableHeader>
+            <tableHeader>Balance</tableHeader>
+		</headersList>
+		<transBeginningBalance>Beginnning Balance</transBeginningBalance>
+		<transBeginningBalanceAmount>$5,755.47</transBeginningBalanceAmount>
+		<transactionTable>
+			<row>
+				<date>08/15</date>
+				<description>Bogus Corp Dir Dep</description>
+				<amount>2,409.17</amount>
+				<balance>8,164.64</balance>
+			</row>
+            <row>
+				<date>08/16</date>
+				<description>15th Street Housing Rent Payment</description>
+				<amount>$2,640.00</amount>
+				<balance>5,524.64</balance>
+			</row>
+		</transactionTable>
+		<transEndingBalance>Ending Balance</transEndingBalance>
+		<transEndingBalanceAmount>$5,524.64</transEndingBalanceAmount>
+	</transactions>
+</accountStatement>

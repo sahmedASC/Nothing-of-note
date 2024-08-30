@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT catalog (book)+>
+<!ELEMENT book (title, contributors, description, identifier)>
+<!ATTLIST book id CDATA #REQUIRED>
+<!ATTLIST book available (Y|N) #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT contributors (contributor)+>
+<!ELEMENT contributor (#PCDATA)>
+<!ATTLIST contributor role (creator|contributor|illustrator|editor) #REQUIRED>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT identifier (#PCDATA)>
+<!ATTLIST identifier type (lc|isbn|oclc) #REQUIRED>
